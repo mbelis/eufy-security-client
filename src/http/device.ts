@@ -1111,7 +1111,8 @@ export class Device extends TypedEmitter<DeviceEvents> {
             sn.startsWith("T8424") ||
             sn.startsWith("T8440") ||
             sn.startsWith("T8441") ||
-            sn.startsWith("T8442");
+            sn.startsWith("T8442") ||
+            sn.startsWith("T8B00");
     }
 
     static isSoloCameraBySn(sn: string): boolean {
@@ -1120,7 +1121,8 @@ export class Device extends TypedEmitter<DeviceEvents> {
             sn.startsWith("T8122") ||
             sn.startsWith("T8123") ||
             sn.startsWith("T8124") ||
-            sn.startsWith("T8134");
+            sn.startsWith("T8134") ||
+            sn.startsWith("T8B00");
     }
 
     static isSmartTrackCard(type: number): boolean {
